@@ -12,7 +12,7 @@ var estado;
 if (promedio >= 11.0) {
     estado = ("Aprobado con baja nota");
 } else {
-    estado = ("Reprobado");
+    estado = ("Reprobado y habilitado para el sustitutorio");
 }
 document.write("Tus notas son: " + notas + "<br>" + "Tu Promedio es: " + promedio + "<br>" + "Estado: " + estado + "<br>");
 alert(estado);
