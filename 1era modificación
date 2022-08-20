@@ -9,7 +9,7 @@ var suma = notas.reduce(function(total, cantidad) {
 var promedio = (suma / (notas.length)).toFixed(1);
 
 var estado;
-if (promedio >= 13.0) {
+if (promedio >= 11.0) {
     estado = ("Aprobado");
 } else {
     estado = ("Reprobado");
